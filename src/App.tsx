@@ -12,14 +12,12 @@ import Curios from './pages/Curios';
 function App() {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: colors.light, color: colors.dark}}>
-      <BrowserRouter>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/curios" element={<Curios />} />
-        </Routes>
-      </BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/curios" element={<Curios />} />
+      </Routes>
     </div>
   );
 }
