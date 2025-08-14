@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "homepage": "https://excitedcurios.github.io/",
+  "homepage": "https://excitedcurios.github.io/website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
